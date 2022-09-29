@@ -1,0 +1,42 @@
+.fruit{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: 5% 20%;
+    padding: 5%;
+    border-radius: 10px;
+    
+}
+.fruits li{
+    list-style: none;
+    padding: 3%;
+    right: auto;
+}
+.vegetable{
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: 5% 20%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.vegetable li{
+    list-style: none;
+    padding: 3%;
+    right: auto;
+}
+.products{
+    background-color: azure;
+    width: 50%;
+    height: 10%;
+    margin: 5% 20%;
+    /* padding: 5%; */
+    border-radius: 10px;
+}
+.products li{
+    list-style: none;
+    padding: 2%;
+    right: auto;
+    flex: 0 0 25%;
+
+}

@@ -1,0 +1,105 @@
+.form{
+    margin-top: 2%;
+    margin-left: 18%;
+    display: flex;
+    background-color: rgb(241, 255, 244);
+    width: 65%;
+    border-radius: 10px;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(67, 67, 249);
+    margin: auto;
+}
+.credentials{
+    font-size: 15px;
+    color: black;
+}
+.welcome{
+    font-size: 30px;
+    color: rgb(126, 126, 126);
+}
+#email{
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+#emaill{
+    width: 370px;
+    height: 40px;
+    padding-left: 3%;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 126);
+    text-align: start;
+}
+#password{
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+#passwordd{
+    width: 370px;
+    height: 40px;
+    padding-left: 3%;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 126);
+}
+.check{
+    display: flex;
+    margin-top: 5%;
+    color: rgb(126, 126, 126);
+}
+.forgot{
+    margin-left: 83px;
+    margin-top: 1px;
+}
+.login{
+    width: 385px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #469DA4;
+    border: none;
+    border-radius: 5px;
+}
+.or{
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+}
+.image{
+    margin-left: 5%;
+}
+.signup p{
+    margin-left: 45%;
+    margin-top: 7%;
+}
+.icons{
+    color: rgb(126, 126, 126);
+    display: flex;
+    margin-left: 26%;
+    padding: 5%;
+}
+.facebook{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+    
+}
+.google{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+}
+.instagram{
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 10%;
+}
