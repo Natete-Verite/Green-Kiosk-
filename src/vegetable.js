@@ -23,7 +23,8 @@ import "./Products.css";
   
       
         return(
-                <div className="vegetable">   
+                <div className="vegetable">  
+                <h3>Our vegetables</h3> 
             <ul className="vegies" >
             {data.map(item =>(
                <li key={item.id}>{item.name}</li> 

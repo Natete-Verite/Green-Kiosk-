@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaFacebook, FaGoogle, FaInstagram } from "react-icons/fa";
 import "./Form.css";
 // import image from "./edishop.png";
@@ -10,13 +10,23 @@ const Form = () => {
   console.log(email);
   const [password, setPassword] = useState("");
   console.log(password);
+
+  const [user, setUsername] = useState("");
+
+  useEffect(() => {
+    localStorage.setItem('user', JSON.stringify(user));
+  }, [user])
+  
+
   const handleSubmit = () => {
     const data = {
+      user: user,
       email: email,
       password: password,
     };
     alert(JSON.stringify(data));
   };
+
   return (
     <div className="form">
       <div className="logo">
@@ -24,6 +34,15 @@ const Form = () => {
         <form onSubmit={handleSubmit}>
           <div className="credentials">
             {/* <p className="welcome">Welcome Back</p> */}
+            <p id="usernamee">Username</p>
+            <input
+              type="text"
+              id="username"
+              placeholder="username"
+              onChange={(e) => {
+                setUsername(e.target.value);
+              }}
+            />
             <p id="email">Your email</p>
             <input
               type="text"
@@ -66,9 +85,8 @@ const Form = () => {
             </div>
           </div>
         </form>
-        
+
         {/* {email ? <Footer email= {email} /> : <Navbar />} */}
-        
       </div>
       {/* <div className="image">
         <div className="signup">

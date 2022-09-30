@@ -1,5 +1,5 @@
 .form{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 18%;
     display: flex;
     background-color: rgb(241, 255, 244);
@@ -19,25 +19,37 @@
     font-size: 30px;
     color: rgb(126, 126, 126);
 }
+#usernamee{
+    font-size: 15px;
+    color: rgb(126, 126, 126);
+}
+#username{
+    width: 370px;
+    height: 30px;
+    padding-left: 3%;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 126);
+    text-align: start;
+}
 #email{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(126, 126, 126);
 }
 #emaill{
     width: 370px;
-    height: 40px;
+    height: 30px;
     padding-left: 3%;
     border-radius: 5px;
     border: 1px solid rgb(126, 126, 126);
     text-align: start;
 }
 #password{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(126, 126, 126);
 }
 #passwordd{
     width: 370px;
-    height: 40px;
+    height: 30px;
     padding-left: 3%;
     border-radius: 5px;
     border: 1px solid rgb(126, 126, 126);
